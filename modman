@@ -10,4 +10,3 @@ app/code/community/Ebizmarts/* app/code/community/Ebizmarts/
 js/ebizmarts/autoresponders/visitedproducts.js js/ebizmarts/autoresponders/visitedproducts.js
 lib/Mandrill/API.php lib/Mandrill/API.php
 skin/adminhtml/default/default/* skin/adminhtml/default/default/
-skin/frontend/base/default/magemonkey skin/frontend/base/default/magemonkey
