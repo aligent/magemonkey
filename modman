@@ -2,11 +2,14 @@ app/etc/modules/* app/etc/modules/
 app/locale/en_US/*.csv app/locale/en_US/
 app/locale/en_US/template/email/ebizmarts app/locale/en_US/template/email/ebizmarts
 app/locale/en_US/template/email/sales/abandoned_cart.html app/locale/en_US/template/email/sales/abandoned_cart.html
-app/design/frontend/base/default/template/*     app/design/frontend/base/default/template/
-app/design/frontend/base/default/layout/* app/design/frontend/base/default/layout/
-app/design/adminhtml/default/default/template/* app/design/adminhtml/default/default/template/
-app/design/adminhtml/default/default/layout/* app/design/adminhtml/default/default/layout/
+app/design/frontend/base/default/layout/ebizmarts/* app/design/frontend/base/default/layout/ebizmarts/
+app/design/frontend/base/default/template/ebizmarts/autoresponder app/design/frontend/base/default/template/ebizmarts/autoresponder
+app/design/frontend/base/default/template/ebizmarts_abandonedcart app/design/frontend/base/default/template/ebizmarts_abandonedcart
+app/design/adminhtml/default/default/template/ebizmarts/abandonedcart app/design/adminhtml/default/default/template/ebizmarts/abandonedcart
+app/design/adminhtml/default/default/layout/ebizmarts/abandonedcart.xml app/design/adminhtml/default/default/layout/ebizmarts/abandonedcart.xml
+app/design/adminhtml/default/default/layout/mandrill.xml
 app/code/community/Ebizmarts/* app/code/community/Ebizmarts/
 js/ebizmarts/autoresponders/visitedproducts.js js/ebizmarts/autoresponders/visitedproducts.js
 lib/Mandrill/API.php lib/Mandrill/API.php
-skin/adminhtml/default/default/* skin/adminhtml/default/default/
+skin/adminhtml/default/default/abandonedcart/* skin/adminhtml/default/default/abandonedcart
+skin/adminhtml/default/default/ebizmarts/* skin/adminhtml/default/default/ebizmarts/
