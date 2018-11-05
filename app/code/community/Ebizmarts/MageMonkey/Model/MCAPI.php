@@ -48,7 +48,7 @@ class Ebizmarts_MageMonkey_Model_MCAPI
      * @param string $apikey Your MailChimp apikey
      * @param string $secure Whether or not this should use a secure connection
      */
-    function __construct($apikey, $secure=false) {
+    function __construct($apikey, $secure=true) {
         $this->secure = $secure;
         $this->apiUrl = parse_url("https://api.mailchimp.com/" . $this->version . "/?output=php");
         $this->api_key = $apikey;
